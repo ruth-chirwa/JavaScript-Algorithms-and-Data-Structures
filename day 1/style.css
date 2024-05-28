@@ -1,0 +1,31 @@
+*{
+    font-size: 16px;
+}
+html{
+    background-color: rgb(198, 152, 241);
+    color: black;
+    
+}
+body{
+    margin-top: 200px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 60px;
+}
+button{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    height: 40px;
+    width: 40%;
+    padding: 30px 0;
+    box-shadow: 0 15px 25px 0 rgba(0.5, 0, 0, 40);
+    align-items: center;
+    border: none;
+}
+button:hover{
+    background-color: blueviolet;
+    color: bisque;
+    cursor: pointer;
+}

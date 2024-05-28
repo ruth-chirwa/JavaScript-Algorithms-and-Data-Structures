@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>New Programmer</h1>
+    <button id="click" onclick="click()">Click me</button>
+    <script>
+        function click(){
+            let name = prompt("What is your name?");
+            prompt("What is your email?");
+            alert(`Congratulations, ${name} on your Tech Journey, Wishing you the best`); 
+        }
+        let button =  document.querySelector("button");
+            button.addEventListener("click", click);
+    </script>
+</body>
+</html>
